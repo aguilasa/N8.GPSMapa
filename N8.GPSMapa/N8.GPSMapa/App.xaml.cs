@@ -13,7 +13,7 @@ namespace N8.GPSMapa
         {
             InitializeComponent();
 
-            MainPage = new N8.GPSMapa.MainPage();
+            MainPage = new NavigationPage(new GeoLocalizaPage());
         }
 
         protected override void OnStart()
